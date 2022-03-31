@@ -1,0 +1,44 @@
+@import '/src/global.scss';
+
+
+.cards-container{
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    overflow: hidden;
+}
+.cards-container-title{
+    margin-bottom: 18%;
+    font-family: $tFont;
+}
+.card-div{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    box-shadow: -3px 0 26px -14px #000000;;
+}
+
+.card-imgs{
+    width: 60%;
+}
+
+.card-titulo{
+    font-family: $pFont;    
+    width: 100%;
+    position: relative;
+    
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 90%;
+    font-family: $sFont;
+    font-weight: bold;
+}
+

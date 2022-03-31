@@ -1,0 +1,39 @@
+@import '/src/global.scss';
+
+.steps-container{
+    margin-top: 13%;
+    text-align: center;
+}
+.step-container-title{
+    font-family: $tFont;
+    font-size: xxx-large;
+}
+.step{
+    margin-top: 13%; 
+}
+.step-1{
+   margin-top: 5%;
+}
+
+.step:nth-child(4){
+    padding-bottom: 20%;
+}
+
+.step-text{
+    text-align: center;
+    width: 100%;
+}
+.step-titulo{
+    font-family: $pFont;
+}
+
+.step-p{
+    margin: auto;
+    font-family: $sFont;
+    width: 60%;
+}
+
+.step-gif{
+    width: 30%;
+}
+
